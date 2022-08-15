@@ -1,7 +1,14 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
-const BlogPostArticle = () => {
-  return <div>BlogPostArticle</div>;
+const BlogPostArticle = ({ article }) => {
+  return (
+    <div>
+      <article>
+        <ReactMarkdown children={article} />
+      </article>
+    </div>
+  );
 };
 
 export default BlogPostArticle;
