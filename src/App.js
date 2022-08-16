@@ -3,7 +3,7 @@ import BlogPostScreen from "./screens/BlogPostScreen";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BlogPostScreen />
     </div>
   );
