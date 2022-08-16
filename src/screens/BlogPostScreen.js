@@ -6,7 +6,7 @@ import { article } from "../data/DummyData";
 const BlogPostScreen = () => {
   return (
     <div>
-      <BlogPostAside />
+      <BlogPostAside article={article} />
       <BlogPostArticle article={article} />
     </div>
   );
